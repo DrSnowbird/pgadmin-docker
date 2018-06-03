@@ -36,4 +36,11 @@ RUN \
     yes "yes" | sudo apt-get upgrade -y  && \
     sudo apt-get install postgresql-10 pgadmin4 -y
 
+RUN echo ${USER} && echo ${HOME} && \
+    sudo apt-get install firefox -y && \
+    sudo chown -R $USER_NAME:$USER_NAME $HOME
+
+USER $USER_NAME
+WORKDIR ${HOME}
 CMD ["/usr/bin/pgadmin4"]
+#CMD ["/usr/bin/firefox"]
