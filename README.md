@@ -23,9 +23,9 @@ Otherwise, you will see "error".
 ```
 
 ## Connect to a test PostgreSQL Server for test this pgadmin
-1.) Launch a test PostgreSQL server
+1.) Launch a test PostgreSQL server (login/password as **postgres**/**mysecretpassword**). You can chance password inside the file "run-postgres.sh" by modify the value of POSTGRES_PASSWORD.
 ```
-./run-postres.sh
+./run-postgres.sh
 ```
 2.) The above step will start a test PostgreSQL server. Then, you just follow the previous section "**Connect to existing PostgreSQL Server**" guide.
 
