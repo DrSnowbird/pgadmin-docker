@@ -22,7 +22,8 @@ services:
   pgadmin-docker:
     image: openkbs/pgadmin-docker
     build:
-      context: ./Dockerfile
+      context: .
+      dockerfile: Dockerfile
     container_name: pgadmin-docker
     environment:
       - USER_ID=${USER_ID:-1000}
