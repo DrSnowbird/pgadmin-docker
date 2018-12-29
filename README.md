@@ -34,6 +34,7 @@ To build your local Docker images (instead of pulling automated pre-built image)
 
 # References & Resources
 * [**PgAdmin for PostgreSQL Database Server**](https://www.pgadmin.org/)
+* [A better way to develop your GraphQL API using Docker + PostgreSQL + Postgraphile](https://medium.com/coderbunker/a-better-way-to-develop-your-graphql-api-using-docker-postgresql-postgraphile-7a1ae034b826)
 
 # See also
 * [**MySQL Workbench for MySQL Database Server** Docker at "**openkbs/mysql-workbench**"](https://hub.docker.com/r/openkbs/mysql-workbench/)
